@@ -453,7 +453,7 @@
 					case 't':
 						if ($this -> SharedStrings -> nodeType == XMLReader::END_ELEMENT)
 						{
-							continue;
+							break;
 						}
 						$CacheValue .= $this -> SharedStrings -> readString();
 						break;
